@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test:homePageTest": "npx cypress run --spec cypress/e2e/tests/homePageTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,9 @@
   "homepage": "https://github.com/arbaz22/CypressE2E#readme",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.2"
+    "cypress": "^14.5.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^4.0.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
